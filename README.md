@@ -65,7 +65,7 @@ Neovim's configurations are located under the following paths, depending on your
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone git@github.com:jones013/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/jones013/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -75,13 +75,13 @@ git clone git@github.com:jones013/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.
 If you're using `cmd.exe`:
 
 ```
-git clone git@github.com:jones013/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/jones013/kickstart.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone git@github.com:jones013/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/jones013/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
