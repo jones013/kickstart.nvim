@@ -5,3 +5,8 @@
 
 ---@module 'lazy'
 ---@type LazySpec
+-- lua/custom/plugins/init.lua
+return {
+  -- You can leave this empty for now, or add your plugins here
+  -- { 'echasnovski/mini.pairs', opts = {} },
+}
