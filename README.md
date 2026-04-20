@@ -185,14 +185,14 @@ choco install -y neovim git ripgrep wget fd unzip gzip mingw make tree-sitter
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update
-sudo apt install make gcc ripgrep fd-find tree-sitter-cli unzip git xclip neovim
+sudo apt install make gcc ripgrep fd-find node.js npm unzip git xclip neovim
 ```
 </details>
 
 <details><summary>Arch Install Steps</summary>
 
 ```
-sudo pacman -S --noconfirm --needed gcc make git ripgrep fd tree-sitter-cli unzip neovim
+sudo pacman -S --noconfirm --needed gcc make git ripgrep fd node.js npm unzip neovim
 ```
 </details>
 
