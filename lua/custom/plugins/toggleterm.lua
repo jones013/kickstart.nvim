@@ -1,11 +1,7 @@
-return {
-  'akinsho/toggleterm.nvim',
-  version = '*',
-  config = function()
-    require('toggleterm').setup {
-      open_mapping = [[<C-\>]],
-      direction = 'horizontal',
-      size = 15,
-    }
-  end,
+vim.pack.add { { src = 'https://github.com/akinsho/toggleterm.nvim', version = vim.version.range '*' } }
+
+require('toggleterm').setup {
+  open_mapping = [[<C-\>]],
+  direction = 'horizontal',
+  size = 15,
 }

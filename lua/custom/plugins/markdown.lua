@@ -1,10 +1,4 @@
-return {
-  'iamcco/markdown-preview.nvim',
-  cmd = { 'MarkdownPreviewToggle', 'MarkdownPreview', 'MarkdownPreviewStop' },
-  ft = { 'markdown' },
-  -- Change the line below to run the shell script instead
-  build = 'cd app && npm install',
-  keys = {
-    { '<leader>mp', '<cmd>MarkdownPreviewToggle<cr>', desc = 'Markdown Preview' },
-  },
-}
+vim.pack.add { 'https://github.com/iamcco/markdown-preview.nvim' }
+
+vim.g.mkdp_filetypes = { 'markdown' }
+vim.keymap.set('n', '<leader>mp', '<cmd>MarkdownPreviewToggle<cr>', { desc = 'Markdown Preview' })
